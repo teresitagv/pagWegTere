@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+}
+.fondoindex{
+    background-image: url(paginadex.png);
+    background-size:100%;
+    display: flex;
+    margin-top: 10%;
+}
+
+.principal{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+}
+.principal_linea{
+    font-size: 40px;
+}
+.principal_title{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.principal_button2{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(235, 128, 128);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.Redessociales{
+    color: white;
+    background-color:#e38383;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+
+}
+.redessociales_logo{
+    height: 40px;
+    margin-right: 20px;
+}
+
+.menuu{
+    background-color: #511313;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.tulogo{
+    width: 120px
+}
+
+.menu_logo{
+    height: 80px;
+}
+.menulista{
+    display: flex;
+    
+}
+.menu_lista_elemento{
+    margin-left: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.868);
+}
+
+.menu__link:link{
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+.main{
+    display: flex ;
+    align-items:center;
+    background-color: #890000;
+    color:white;
+}
+.maintwo{
+    background-color: #890000;
+    color:white;
+}
+
+.mainimagen{
+    height: 380px;
+    margin: 100px;
+
+}
+.main2{
+    text-align:center;
+    margin: 100px;
+    
+}
+.main_button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(254, 114, 114);
+    color: black;
+    font-size: 20px;
+    border-radius: 75px;
+    cursor: pointer;
+    
+}
+
+.foto_yo{
+    height: 250px;
+}
+
+.contenedorCards{
+    display:flex;
+    justify-content: center;
+    margin:0 20px;
+    padding: 20px;
+}
+
+.card{
+    border: 2px solid red;
+    width: 20%;
+    text-align: justify;
+    margin:0 20px ; Primer valor para margen superior e inferior y segundo valor para izquierdo o derecho ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    font-size: 90%;
+    background-color: rgb(255, 196, 196);
+    color: black;
+
+}
+
+.cardimg{
+    width: 80%;
+    margin-top: 20px;
+
+}
+
+.buttoncito{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
